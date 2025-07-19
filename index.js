@@ -20,7 +20,7 @@ function renderTasks(){
 
         const checkUncheckImg = document.createElement('img');
         checkUncheckImg.classList.add('check-uncheckimg' , 'check');
-        checkUncheckImg.src = t.done ? '/images/checked.png':'/images/unchecked.png' ;
+        checkUncheckImg.src = t.done ? 'checked.png':'unchecked.png' ;
         checkUncheckImg.alt = t.done ? 'checked':'unchecked';
 
         checkUncheckBtn.append(checkUncheckImg);
