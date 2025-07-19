@@ -1,0 +1,171 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-image: linear-gradient(to top, #a8edea 0%, #fed6e3 100%);
+    background-attachment: fixed;
+}
+.main-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(174, 182, 189);
+    max-width: 450px;
+    margin: 5rem auto 0 auto;
+    border-radius: 10px;
+    min-height: 150px;
+}
+.headingplusimage-div{
+    display: flex;
+    align-items: center;
+    color: white;
+    margin-top: 18px;
+
+}
+.todolistheading{
+    font-family: sans-serif;
+    margin-right: 4px;
+}
+.listwaliimage{
+    width: 29px;
+    height: 29px;
+}
+.type-div{
+    position: relative;
+    width: 350px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1rem;
+
+}
+.inputhumai{
+    width: 290px;
+    z-index: 1;
+    height: 32px;
+    border-radius: 15px;
+    border: 1px solid rgb(148, 108, 141);
+    padding-left: 10px;
+    
+}
+.addbutton{
+    position: absolute;
+    z-index: 100;
+    height: 35px;
+    width: 60px;
+    border-radius: 15px;
+    border: none;
+    background-color: rgb(241, 95, 9);
+    color: white;
+    cursor: pointer;
+    margin-left: -24px;
+    
+
+}
+.addbutton:hover{
+    background-color: rgb(214, 103, 39) ;
+}
+.listdikhnewala-div{
+    display: flex;
+    flex-direction: column;
+    margin-top: 1rem;
+    margin-bottom: 12px;
+    max-width: 350px;
+    
+}
+.task-item{
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.check-uncheckimg{
+    height: 18px;
+    width: 18px;
+    
+}
+.check{
+    margin-right: 9px;
+    height: 18;
+}
+.paraoflist{
+    font-size: 18px ;
+    max-width: 280px;
+    overflow-wrap: break-word;
+
+}
+.checkwalibtn{
+    display: flex;
+    width: 22px;
+    background-color: rgb(174, 182, 189);
+    border: none;
+    cursor: pointer;
+}
+.clearbutton{
+    display: flex;
+    align-items: center;
+    height: 20px;
+    width: 20px;
+    background-color: rgb(174, 182, 189) ;
+    border: none;
+    margin-left: 8px;
+}
+.mark{
+    height: 18px;
+    width: 18px;
+    cursor: pointer;
+
+}
+.close-icon{
+    width: 16px;
+    height: 16px;
+    cursor: pointer;
+    
+}
+.completed{
+    text-decoration: line-through;
+}
+@media screen and (max-width:465px) {
+    .main-div{
+        max-width: 300px;
+    }
+    .type-div{
+        max-width: 270px;
+    }
+    .inputhumai{
+        max-width: 230px;
+    }
+    .addbutton{
+        width: 49px;
+    }
+    .listdikhnewala-div{
+        max-width: 270px;
+
+    }
+    .paraoflist{
+        max-width: 220px;
+        overflow-wrap: break-word;
+    }
+}
+@media screen and (max-width:325px) {
+    .main-div{
+        max-width: 250px;
+    }
+    .type-div{
+        max-width: 200px;
+    }
+    .inputhumai{
+        max-width: 180px;
+    }
+    .addbutton{
+        width: 45px;
+    }
+    .listdikhnewala-div{
+        max-width: 240px;
+
+    }
+    .paraoflist{
+        max-width: 180px;
+        overflow-wrap: break-word;
+    }
+}
